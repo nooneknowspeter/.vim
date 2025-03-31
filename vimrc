@@ -63,8 +63,11 @@ set smartcase
 set showmatch
 map <leader><space> :let @/=''<cr> " clear search 
 
+" access colors present in 256 colorspace
+let base16colorspace=256  
+
 " colorscheme
-color unokai
+color base16-black-metal-dark-funeral
 
 " transparent background
 hi normal ctermbg=none
